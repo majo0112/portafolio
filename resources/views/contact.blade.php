@@ -20,22 +20,22 @@
 
                             <div class="col-md-6">
                                 <label for="name"></label>
-                                <input type="text" name="name" class="form-control" placeholder="Name*" required>
+                                <input type="text" id="name" name="name" class="form-control" placeholder="Name*" required>
                             </div>
 
                             <div class="col-md-6">
                                 <label for="email"></label>
-                                <input type="email" name="email" class="form-control" placeholder="Email*" required>
+                                <input type="email" id="email" name="email" class="form-control" placeholder="Email*" required>
                             </div>
 
                             <div class="col-md-12">
                                 <label for="subject"></label>
-                                <input type="text" name="subject" class="form-control" placeholder="Subject*" required>
+                                <input type="text" id="subject" name="subject" class="form-control" placeholder="Subject*" required>
                             </div>
 
                             <div  class="col-md-12">
                                 <label for="message"></label>
-                                <textarea name="message" class="form-control" rows="5" placeholder="Enter your message..." required></textarea>
+                                <textarea id="message" name="message" class="form-control" rows="5" placeholder="Enter your message..." required></textarea>
                             </div>
 
                             <div id="spinner" class="spinner" style="display: none;">
