@@ -33,6 +33,6 @@ Route::get('contact', function () {
 
 
 Route::get('/contact', [ContactController::class, 'submitForm'])->name('contact');
-Route::post('/contact', [ContactController::class, 'sendmail'])->name('contact.sendmail');
+Route::post('/contact', [ContactController::class, 'sendmail'])->name('contact.sendmail')->middleware('web');
 
 
