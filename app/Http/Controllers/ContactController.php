@@ -6,8 +6,7 @@ use Illuminate\Http\Request;
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
-/**use Illuminate\Support\Facades\Mail;
-use App\Mail\ContactMail;*/
+
 
 class ContactController extends Controller
 {
