@@ -29,27 +29,27 @@
                   </div>
                   <div class="skill-mf">
                     <p class="title-s">Skill</p>
-                    <span>HTML</span> <span class="pull-right">80%</span>
+                    <span>HTML</span> <span class="pull-right"></span>
                     <div class="progress">
                       <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
-                    <span>CSS</span> <span class="pull-right">75%</span>
+                    <span>CSS</span> <span class="pull-right"></span>
                     <div class="progress">
                       <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
-                    <span>PHP</span> <span class="pull-right">65%</span>
+                    <span>PHP</span> <span class="pull-right"></span>
                     <div class="progress">
                       <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
-                    <span>JAVASCRIPT</span> <span class="pull-right">65%</span>
+                    <span>JAVASCRIPT</span> <span class="pull-right"></span>
                     <div class="progress">
                       <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
-                    <span>PAYTHON</span> <span class="pull-right">65%</span>
+                    <span>PAYTHON</span> <span class="pull-right"></span>
                     <div class="progress">
                       <div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
-                    <span>SQL</span> <span class="pull-right">65%</span>
+                    <span>SQL</span> <span class="pull-right"></span>
                     <div class="progress">
                       <div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
