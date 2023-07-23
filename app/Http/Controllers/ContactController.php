@@ -37,7 +37,7 @@ class ContactController extends Controller
             $mail->addAddress('mariajosepavamedina0112@gmail.com');     
           
             //Content
-            $mail->isHTML(true);                                  //Set email format to HTML
+            $mail->isHTML(true);                                  
             $mail->Subject = $request->subject; 
             $messageContent = "Name: {$request->name}<br>";
             $messageContent .= "Email: {$request->email}<br>";
