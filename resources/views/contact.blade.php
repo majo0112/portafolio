@@ -15,7 +15,7 @@
                             </div>
                         @endif
 
-                        <form action="{{ route('contact.submit') }}" method="POST" class="row g-3">
+                        <form action="{{ route('contact.sendmail') }}" method="POST" class="row g-3">
                             @csrf
 
                             <div class="col-md-6">

@@ -80,18 +80,41 @@ a:hover {
   overflow: hidden;
 }
 
+
 .bg-image {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-position: center center;
+  background-position: center;
+  height: 100vh;
+  width: auto;
 }
 
 @media (max-width: 1024px) {
   .bg-image {
-    background-attachment: scroll;
+    background-size: 10 0% auto;
+    background-position: right;
+    height: 100vh;
   }
 }
+
+
+@media (max-width: 794px) {
+  #hero.hero.route.bg-image {
+    background-size: 100% auto;
+    background-position: center;
+    height: 100vh;
+  }
+}
+
+@media (max-width: 912px) {
+  #hero.hero.route.bg-image {
+    background-size: 100% auto;
+    background-position: bottom;
+    height: 70vh;
+  }
+}
+
 
 .overlay-mf {
   background-color: white;
@@ -505,6 +528,9 @@ ul.menu li {
   }
 }
 
+
+
+
 .hero .hero-subtitle {
   font-size: 1.5rem;
   font-weight: 600;
@@ -515,6 +541,8 @@ ul.menu li {
     font-size: 2.5rem;
   }
 }
+
+
 
 .hero .text-slider-items {
   display: none;
@@ -574,6 +602,8 @@ ul.menu li {
   color: #5669DB;
 }
 
+
+
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
@@ -611,6 +641,7 @@ ul.menu li {
     padding-left: 0rem;
   }
 }
+
 
 .skill-mf span {
   color: #4e4e4e;
