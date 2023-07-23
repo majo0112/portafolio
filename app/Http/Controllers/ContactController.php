@@ -21,17 +21,17 @@ class ContactController extends Controller
 
      try {
 
-             $mail = new PHPMailer(true);
-            //Server settings
-            $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
-            $mail->isSMTP();                                            //Send using SMTP
-            $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
-            $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-            $mail->Username   = 'mariajosepavamedina0112@gmail.com';                     //SMTP username
-            $mail->Password = getenv('SMTP_PASSWORD');                   //SMTP password
-            $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
-            $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
-
+            $mail = new PHPMailer(true);
+            // Server settings
+            $mail->SMTPDebug = SMTP::DEBUG_SERVER;
+            $mail->isSMTP();
+            $mail->Host = env('MAIL_HOST');
+            $mail->SMTPAuth = true;
+            $mail->Username = env('MAIL_USERNAME');
+            $mail->Password = env('MAIL_PASSWORD');
+            $mail->SMTPSecure = env('MAIL_ENCRYPTION', 'ssl');
+            $mail->Port = env('MAIL_PORT', 465);
+                                          
             //Recipients
             $mail->setFrom('mariajosepavamedina0112@gmail.com', 'Portafolio');
             $mail->addAddress('mariajosepavamedina0112@gmail.com');     
