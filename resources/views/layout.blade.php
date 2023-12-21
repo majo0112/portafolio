@@ -26,10 +26,10 @@
 
       <nav id="navbar" class="navbar">
         <ul class="menu">
-          <li><a class="nav-link scrollto active" href="{{ route('/') }}">Home</a></li>
-          <li><a class="nav-link scrollto" href="{{ route('about') }}">About me</a></li>
-          <li><a class="nav-link scrollto" href="{{ route('portfolio') }}">Portfolio</a></li>
-          <li><a class="nav-link scrollto" href="{{ route('contact') }}">Contact</a></li>
+          <li class="{{ Route::is('/') ? 'active' : '' }}"><a class="nav-link scrollto" href="{{ route('/') }}">Welcome!</a></li>
+          <li class="{{ Route::is('about') ? 'active' : '' }}"><a class="nav-link scrollto" href="{{ route('about') }}">About me</a></li>
+          <li class="{{ Route::is('portfolio') ? 'active' : '' }}"><a class="nav-link scrollto" href="{{ route('portfolio') }}">Portfolio</a></li>
+          <li class="{{ Route::is('contact') ? 'active' : '' }}"><a class="nav-link scrollto" href="{{ route('contact') }}">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
